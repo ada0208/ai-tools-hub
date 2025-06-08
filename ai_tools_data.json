@@ -1,0 +1,637 @@
+{
+  "site_info": {
+    "name": "AI工具宝",
+    "tagline": "发现最新AI工具，提升工作效率",
+    "description": "精选1000+优质AI工具，涵盖写作、设计、编程、视频等领域"
+  },
+  "categories": {
+    "AI智能助手": [
+      {
+        "name": "豆包",
+        "description": "字节跳动推出的免费AI智能助手",
+        "category": "AI智能助手",
+        "featured": true,
+        "url": "https://www.doubao.com",
+        "icon": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/logo-icon.png"
+      },
+      {
+        "name": "问小白",
+        "description": "元石科技推出的AI智能助手，支持DeepSeek满血版",
+        "category": "AI智能助手",
+        "featured": true,
+        "url": "https://www.wenxiaobai.com",
+        "icon": "https://www.wenxiaobai.com/logo.png"
+      },
+      {
+        "name": "ChatGPT",
+        "description": "OpenAI旗下AI对话工具",
+        "category": "AI智能助手",
+        "featured": true,
+        "url": "https://chat.openai.com",
+        "icon": "https://chat.openai.com/favicon-32x32.png"
+      },
+      {
+        "name": "Claude",
+        "description": "Anthropic公司推出的对话式AI智能助手",
+        "category": "AI智能助手",
+        "featured": false,
+        "url": "https://claude.ai",
+        "icon": "https://claude.ai/favicon-32x32.png"
+      },
+      {
+        "name": "DeepSeek",
+        "description": "幻方量化旗下深度求索推出的开源大模型和聊天助手",
+        "category": "AI智能助手",
+        "featured": false,
+        "url": "https://chat.deepseek.com",
+        "icon": "https://chat.deepseek.com/favicon.ico"
+      },
+      {
+        "name": "Kimi智能助手",
+        "description": "一次搜索可精读500个页面，会推理解析，能深度思考的AI助手",
+        "category": "AI智能助手",
+        "featured": true,
+        "url": "https://kimi.moonshot.cn",
+        "icon": "https://statics.moonshot.cn/kimi-chat/favicon.ico"
+      }
+    ],
+    "AI图像工具": [
+      {
+        "name": "吐司AI",
+        "description": "AI绘画模型社区和在线生图平台",
+        "category": "AI图像工具",
+        "featured": true,
+        "url": "https://tusiart.com",
+        "icon": "https://tusiart.com/favicon.ico"
+      },
+      {
+        "name": "美图设计室",
+        "description": "AI图像创作和设计平台",
+        "category": "AI图像工具",
+        "featured": true,
+        "url": "https://designstudio.meitu.com",
+        "icon": "https://designstudio.meitu.com/favicon.ico"
+      },
+      {
+        "name": "堆友AI",
+        "description": "阿里出品的免费AI绘画和出图神器",
+        "category": "AI图像工具",
+        "featured": true,
+        "url": "https://www.duiyou.com",
+        "icon": "https://www.duiyou.com/favicon.ico"
+      },
+      {
+        "name": "Midjourney",
+        "description": "AI图像和插画生成工具",
+        "category": "AI图像工具",
+        "featured": true,
+        "url": "https://www.midjourney.com",
+        "icon": "https://www.midjourney.com/favicon.ico"
+      },
+      {
+        "name": "Stable Diffusion",
+        "description": "StabilityAI推出的文本到图像生成AI",
+        "category": "AI图像工具",
+        "featured": false,
+        "url": "https://stability.ai",
+        "icon": "https://stability.ai/favicon.ico"
+      },
+      {
+        "name": "即梦",
+        "description": "抖音旗下免费AI图片创作工具",
+        "category": "AI图像工具",
+        "featured": false,
+        "url": "https://jimeng.jianying.com",
+        "icon": "https://jimeng.jianying.com/favicon.ico"
+      }
+    ],
+    "AI写作工具": [
+      {
+        "name": "讯飞绘文",
+        "description": "免费AI写作工具，5分钟生成一篇原创稿！",
+        "category": "AI写作工具",
+        "featured": true,
+        "url": "https://turbodesk.xfyun.cn",
+        "icon": "https://turbodesk.xfyun.cn/favicon.ico"
+      },
+      {
+        "name": "笔灵AI写作",
+        "description": "面向专业写作领域的AI写作工具",
+        "category": "AI写作工具",
+        "featured": true,
+        "url": "https://ibiling.cn",
+        "icon": "https://ibiling.cn/favicon.ico"
+      },
+      {
+        "name": "墨狐AI",
+        "description": "短篇小说AI写作助手，专为网文小说作者设计",
+        "category": "AI写作工具",
+        "featured": false,
+        "url": "https://www.mohu.ai",
+        "icon": "https://www.mohu.ai/favicon.ico"
+      },
+      {
+        "name": "秘塔写作猫",
+        "description": "AI写作，文章自成",
+        "category": "AI写作工具",
+        "featured": false,
+        "url": "https://xiezuocat.com",
+        "icon": "https://xiezuocat.com/favicon.ico"
+      },
+      {
+        "name": "Notion AI",
+        "description": "Notion推出的AI内容创作助手",
+        "category": "AI写作工具",
+        "featured": false,
+        "url": "https://www.notion.so/product/ai",
+        "icon": "https://www.notion.so/favicon.ico"
+      }
+    ],
+    "AI视频工具": [
+      {
+        "name": "白日梦",
+        "description": "AI视频创作平台，最长可生成六分钟的视频",
+        "category": "AI视频工具",
+        "featured": true,
+        "url": "https://aibrm.com",
+        "icon": "https://aibrm.com/favicon.ico"
+      },
+      {
+        "name": "绘蛙AI视频",
+        "description": "绘蛙推出的AI图生视频工具",
+        "category": "AI视频工具",
+        "featured": true,
+        "url": "https://ihuiwa.com",
+        "icon": "https://ihuiwa.com/favicon.ico"
+      },
+      {
+        "name": "可灵AI",
+        "description": "快手推出的AI图像和视频创作平台",
+        "category": "AI视频工具",
+        "featured": true,
+        "url": "https://klingai.kuaishou.com",
+        "icon": "https://klingai.kuaishou.com/favicon.ico"
+      },
+      {
+        "name": "Sora",
+        "description": "OpenAI推出的AI视频生成模型",
+        "category": "AI视频工具",
+        "featured": true,
+        "url": "https://sora.com",
+        "icon": "https://sora.com/favicon.ico"
+      },
+      {
+        "name": "Runway",
+        "description": "AI视频工具，绿幕抠除、视频生成、动态捕捉等功能",
+        "category": "AI视频工具",
+        "featured": false,
+        "url": "https://runwayml.com",
+        "icon": "https://runwayml.com/favicon.ico"
+      }
+    ],
+    "AI办公工具": [
+      {
+        "name": "AiPPT",
+        "description": "AI快速生成高质量PPT",
+        "category": "AI办公工具",
+        "featured": true,
+        "url": "https://www.aippt.cn",
+        "icon": "https://www.aippt.cn/favicon.ico"
+      },
+      {
+        "name": "咔片PPT",
+        "description": "AI PPT制作工具，设计美化全流程自动化",
+        "category": "AI办公工具",
+        "featured": true,
+        "url": "https://www.kapian.com",
+        "icon": "https://www.kapian.com/favicon.ico"
+      },
+      {
+        "name": "办公小浣熊",
+        "description": "最强AI数据分析助手",
+        "category": "AI办公工具",
+        "featured": true,
+        "url": "https://raccoon.sensetime.com",
+        "icon": "https://raccoon.sensetime.com/favicon.ico"
+      },
+      {
+        "name": "讯飞智文",
+        "description": "一键生成PPT和Word",
+        "category": "AI办公工具",
+        "featured": false,
+        "url": "https://zhiwen.xfyun.cn",
+        "icon": "https://zhiwen.xfyun.cn/favicon.ico"
+      }
+    ],
+    "AI搜索引擎": [
+      {
+        "name": "秘塔AI搜索",
+        "description": "最好用的AI搜索工具，没有广告，直达结果",
+        "category": "AI搜索引擎",
+        "featured": true,
+        "url": "https://metaso.cn",
+        "icon": "https://metaso.cn/favicon.ico"
+      },
+      {
+        "name": "Perplexity",
+        "description": "强大的对话式AI搜索引擎",
+        "category": "AI搜索引擎",
+        "featured": true,
+        "url": "https://www.perplexity.ai",
+        "icon": "https://www.perplexity.ai/favicon.ico"
+      },
+      {
+        "name": "夸克AI",
+        "description": "集AI搜索、网盘、文档、创作等功能于一体的应用",
+        "category": "AI搜索引擎",
+        "featured": false,
+        "url": "https://quark.sm.cn",
+        "icon": "https://quark.sm.cn/favicon.ico"
+      },
+      {
+        "name": "百度AI探索版",
+        "description": "百度推出的深度AI搜索引擎",
+        "category": "AI搜索引擎",
+        "featured": false,
+        "url": "https://chat.baidu.com",
+        "icon": "https://chat.baidu.com/favicon.ico"
+      }
+    ],
+    "AI编程工具": [
+      {
+        "name": "Trae",
+        "description": "字节跳动推出的免费AI编程工具，基于Claude模型",
+        "category": "AI编程工具",
+        "featured": true,
+        "url": "https://trae.ai",
+        "icon": "https://trae.ai/favicon.ico"
+      },
+      {
+        "name": "GitHub Copilot",
+        "description": "GitHub推出的AI编程工具",
+        "category": "AI编程工具",
+        "featured": true,
+        "url": "https://github.com/features/copilot",
+        "icon": "https://github.com/favicon.ico"
+      },
+      {
+        "name": "通义灵码",
+        "description": "阿里推出的免费AI编程工具，基于通义大模型",
+        "category": "AI编程工具",
+        "featured": true,
+        "url": "https://tongyi.aliyun.com/lingma",
+        "icon": "https://tongyi.aliyun.com/favicon.ico"
+      },
+      {
+        "name": "Cursor",
+        "description": "AI代码编辑器，快速进行编程和软件开发",
+        "category": "AI编程工具",
+        "featured": false,
+        "url": "https://cursor.sh",
+        "icon": "https://cursor.sh/favicon.ico"
+      }
+    ],
+    "AI设计工具": [
+      {
+        "name": "绘蛙",
+        "description": "AI电商营销工具，免费生成商品图和种草文案",
+        "category": "AI设计工具",
+        "featured": true,
+        "url": "https://ihuiwa.com",
+        "icon": "https://ihuiwa.com/favicon.ico"
+      },
+      {
+        "name": "稿定AI设计",
+        "description": "一站式AI设计与灵感创作平台",
+        "category": "AI设计工具",
+        "featured": true,
+        "url": "https://www.gaoding.com/ai",
+        "icon": "https://www.gaoding.com/favicon.ico"
+      },
+      {
+        "name": "Canva AI",
+        "description": "Canva可画推出的一站式AI创作套件",
+        "category": "AI设计工具",
+        "featured": false,
+        "url": "https://www.canva.com/ai-image-generator",
+        "icon": "https://www.canva.com/favicon.ico"
+      },
+      {
+        "name": "Figma AI",
+        "description": "Figma推出的原生AI设计工具",
+        "category": "AI设计工具",
+        "featured": false,
+        "url": "https://www.figma.com/ai",
+        "icon": "https://www.figma.com/favicon.ico"
+      }
+    ],
+    "AI智能体": [
+      {
+        "name": "扣子空间",
+        "description": "全面免费开放，提供专业AI Agent服务",
+        "category": "AI智能体",
+        "featured": true,
+        "url": "https://www.coze.cn",
+        "icon": "https://www.coze.cn/favicon.ico"
+      },
+      {
+        "name": "Coze",
+        "description": "海量AI智能体免费用，已接入DeepSeek满血版",
+        "category": "AI智能体",
+        "featured": true,
+        "url": "https://www.coze.com",
+        "icon": "https://www.coze.com/favicon.ico"
+      },
+      {
+        "name": "Fairies",
+        "description": "通用型AI Agent，强大的多任务执行能力",
+        "category": "AI智能体",
+        "featured": false,
+        "url": "https://fairies.ai",
+        "icon": "https://fairies.ai/favicon.ico"
+      }
+    ]
+  },
+  "featured_tools": [
+    {
+      "name": "豆包",
+      "description": "字节跳动推出的免费AI智能助手",
+      "category": "AI智能助手",
+      "featured": true,
+      "url": "https://www.doubao.com",
+      "icon": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/logo-icon.png"
+    },
+    {
+      "name": "问小白",
+      "description": "元石科技推出的AI智能助手，支持DeepSeek满血版",
+      "category": "AI智能助手",
+      "featured": true,
+      "url": "https://www.wenxiaobai.com",
+      "icon": "https://www.wenxiaobai.com/logo.png"
+    },
+    {
+      "name": "ChatGPT",
+      "description": "OpenAI旗下AI对话工具",
+      "category": "AI智能助手",
+      "featured": true,
+      "url": "https://chat.openai.com",
+      "icon": "https://chat.openai.com/favicon-32x32.png"
+    },
+    {
+      "name": "Kimi智能助手",
+      "description": "一次搜索可精读500个页面，会推理解析，能深度思考的AI助手",
+      "category": "AI智能助手",
+      "featured": true,
+      "url": "https://kimi.moonshot.cn",
+      "icon": "https://statics.moonshot.cn/kimi-chat/favicon.ico"
+    },
+    {
+      "name": "吐司AI",
+      "description": "AI绘画模型社区和在线生图平台",
+      "category": "AI图像工具",
+      "featured": true,
+      "url": "https://tusiart.com",
+      "icon": "https://tusiart.com/favicon.ico"
+    },
+    {
+      "name": "美图设计室",
+      "description": "AI图像创作和设计平台",
+      "category": "AI图像工具",
+      "featured": true,
+      "url": "https://designstudio.meitu.com",
+      "icon": "https://designstudio.meitu.com/favicon.ico"
+    },
+    {
+      "name": "堆友AI",
+      "description": "阿里出品的免费AI绘画和出图神器",
+      "category": "AI图像工具",
+      "featured": true,
+      "url": "https://www.duiyou.com",
+      "icon": "https://www.duiyou.com/favicon.ico"
+    },
+    {
+      "name": "Midjourney",
+      "description": "AI图像和插画生成工具",
+      "category": "AI图像工具",
+      "featured": true,
+      "url": "https://www.midjourney.com",
+      "icon": "https://www.midjourney.com/favicon.ico"
+    },
+    {
+      "name": "Stable Diffusion",
+      "description": "StabilityAI推出的文本到图像生成AI",
+      "category": "AI图像工具",
+      "featured": false,
+      "url": "https://stability.ai",
+      "icon": "https://stability.ai/favicon.ico"
+    },
+    {
+      "name": "即梦",
+      "description": "抖音旗下免费AI图片创作工具",
+      "category": "AI图像工具",
+      "featured": false,
+      "url": "https://jimeng.jianying.com",
+      "icon": "https://jimeng.jianying.com/favicon.ico"
+    },
+    {
+      "name": "讯飞绘文",
+      "description": "免费AI写作工具，5分钟生成一篇原创稿！",
+      "category": "AI写作工具",
+      "featured": true,
+      "url": "https://turbodesk.xfyun.cn",
+      "icon": "https://turbodesk.xfyun.cn/favicon.ico"
+    },
+    {
+      "name": "笔灵AI写作",
+      "description": "面向专业写作领域的AI写作工具",
+      "category": "AI写作工具",
+      "featured": true,
+      "url": "https://ibiling.cn",
+      "icon": "https://ibiling.cn/favicon.ico"
+    },
+    {
+      "name": "墨狐AI",
+      "description": "短篇小说AI写作助手，专为网文小说作者设计",
+      "category": "AI写作工具",
+      "featured": false,
+      "url": "https://www.mohu.ai",
+      "icon": "https://www.mohu.ai/favicon.ico"
+    },
+    {
+      "name": "秘塔写作猫",
+      "description": "AI写作，文章自成",
+      "category": "AI写作工具",
+      "featured": false,
+      "url": "https://xiezuocat.com",
+      "icon": "https://xiezuocat.com/favicon.ico"
+    },
+    {
+      "name": "Notion AI",
+      "description": "Notion推出的AI内容创作助手",
+      "category": "AI写作工具",
+      "featured": false,
+      "url": "https://www.notion.so/product/ai",
+      "icon": "https://www.notion.so/favicon.ico"
+    },
+    {
+      "name": "白日梦",
+      "description": "AI视频创作平台，最长可生成六分钟的视频",
+      "category": "AI视频工具",
+      "featured": true,
+      "url": "https://aibrm.com",
+      "icon": "https://aibrm.com/favicon.ico"
+    },
+    {
+      "name": "绘蛙AI视频",
+      "description": "绘蛙推出的AI图生视频工具",
+      "category": "AI视频工具",
+      "featured": true,
+      "url": "https://ihuiwa.com",
+      "icon": "https://ihuiwa.com/favicon.ico"
+    },
+    {
+      "name": "可灵AI",
+      "description": "快手推出的AI图像和视频创作平台",
+      "category": "AI视频工具",
+      "featured": true,
+      "url": "https://klingai.kuaishou.com",
+      "icon": "https://klingai.kuaishou.com/favicon.ico"
+    },
+    {
+      "name": "Sora",
+      "description": "OpenAI推出的AI视频生成模型",
+      "category": "AI视频工具",
+      "featured": true,
+      "url": "https://sora.com",
+      "icon": "https://sora.com/favicon.ico"
+    },
+    {
+      "name": "Runway",
+      "description": "AI视频工具，绿幕抠除、视频生成、动态捕捉等功能",
+      "category": "AI视频工具",
+      "featured": false,
+      "url": "https://runwayml.com",
+      "icon": "https://runwayml.com/favicon.ico"
+    },
+    {
+      "name": "AiPPT",
+      "description": "AI快速生成高质量PPT",
+      "category": "AI办公工具",
+      "featured": true,
+      "url": "https://www.aippt.cn",
+      "icon": "https://www.aippt.cn/favicon.ico"
+    },
+    {
+      "name": "咔片PPT",
+      "description": "AI PPT制作工具，设计美化全流程自动化",
+      "category": "AI办公工具",
+      "featured": true,
+      "url": "https://www.kapian.com",
+      "icon": "https://www.kapian.com/favicon.ico"
+    },
+    {
+      "name": "办公小浣熊",
+      "description": "最强AI数据分析助手",
+      "category": "AI办公工具",
+      "featured": true,
+      "url": "https://raccoon.sensetime.com",
+      "icon": "https://raccoon.sensetime.com/favicon.ico"
+    },
+    {
+      "name": "讯飞智文",
+      "description": "一键生成PPT和Word",
+      "category": "AI办公工具",
+      "featured": false,
+      "url": "https://zhiwen.xfyun.cn",
+      "icon": "https://zhiwen.xfyun.cn/favicon.ico"
+    },
+    {
+      "name": "Trae",
+      "description": "字节跳动推出的免费AI编程工具，基于Claude模型",
+      "category": "AI编程工具",
+      "featured": true,
+      "url": "https://trae.ai",
+      "icon": "https://trae.ai/favicon.ico"
+    },
+    {
+      "name": "GitHub Copilot",
+      "description": "GitHub推出的AI编程工具",
+      "category": "AI编程工具",
+      "featured": true,
+      "url": "https://github.com/features/copilot",
+      "icon": "https://github.com/favicon.ico"
+    },
+    {
+      "name": "通义灵码",
+      "description": "阿里推出的免费AI编程工具，基于通义大模型",
+      "category": "AI编程工具",
+      "featured": true,
+      "url": "https://tongyi.aliyun.com/lingma",
+      "icon": "https://tongyi.aliyun.com/favicon.ico"
+    },
+    {
+      "name": "Cursor",
+      "description": "AI代码编辑器，快速进行编程和软件开发",
+      "category": "AI编程工具",
+      "featured": false,
+      "url": "https://cursor.sh",
+      "icon": "https://cursor.sh/favicon.ico"
+    },
+    {
+      "name": "绘蛙",
+      "description": "AI电商营销工具，免费生成商品图和种草文案",
+      "category": "AI设计工具",
+      "featured": true,
+      "url": "https://ihuiwa.com",
+      "icon": "https://ihuiwa.com/favicon.ico"
+    },
+    {
+      "name": "稿定AI设计",
+      "description": "一站式AI设计与灵感创作平台",
+      "category": "AI设计工具",
+      "featured": true,
+      "url": "https://www.gaoding.com/ai",
+      "icon": "https://www.gaoding.com/favicon.ico"
+    },
+    {
+      "name": "Canva AI",
+      "description": "Canva可画推出的一站式AI创作套件",
+      "category": "AI设计工具",
+      "featured": false,
+      "url": "https://www.canva.com/ai-image-generator",
+      "icon": "https://www.canva.com/favicon.ico"
+    },
+    {
+      "name": "Figma AI",
+      "description": "Figma推出的原生AI设计工具",
+      "category": "AI设计工具",
+      "featured": false,
+      "url": "https://www.figma.com/ai",
+      "icon": "https://www.figma.com/favicon.ico"
+    },
+    {
+      "name": "扣子空间",
+      "description": "全面免费开放，提供专业AI Agent服务",
+      "category": "AI智能体",
+      "featured": true,
+      "url": "https://www.coze.cn",
+      "icon": "https://www.coze.cn/favicon.ico"
+    },
+    {
+      "name": "Coze",
+      "description": "海量AI智能体免费用，已接入DeepSeek满血版",
+      "category": "AI智能体",
+      "featured": true,
+      "url": "https://www.coze.com",
+      "icon": "https://www.coze.com/favicon.ico"
+    },
+    {
+      "name": "Fairies",
+      "description": "通用型AI Agent，强大的多任务执行能力",
+      "category": "AI智能体",
+      "featured": false,
+      "url": "https://fairies.ai",
+      "icon": "https://fairies.ai/favicon.ico"
+    }
+  ]
+}

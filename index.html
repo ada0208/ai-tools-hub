@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI工具宝 - 发现最新AI工具，提升工作效率</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <!-- Logo区域 -->
+                <div class="header__logo">
+                    <h1 class="logo">AI工具宝</h1>
+                    <span class="tagline">发现最新AI工具，提升工作效率</span>
+                </div>
+                
+                <!-- 搜索区域 -->
+                <div class="header__search">
+                    <div class="search-box">
+                        <input type="text" id="searchInput" placeholder="搜索AI工具..." class="search-input">
+                        <button class="search-btn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.35-4.35"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- 导航菜单 -->
+                <nav class="header__nav">
+                    <a href="#" class="nav-link active">首页</a>
+                    <a href="#" class="nav-link">工具分类</a>
+                    <a href="#" class="nav-link">最新工具</a>
+                    <a href="#" class="nav-link">关于我们</a>
+                </nav>
+                
+                <!-- 移动端菜单按钮 -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主要内容区域 -->
+    <main class="main">
+        <div class="container">
+            <div class="main__content">
+                <!-- 左侧分类导航 -->
+                <aside class="sidebar">
+                    <div class="sidebar__header">
+                        <h3>工具分类</h3>
+                        <button class="sidebar__toggle" id="sidebarToggle">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                    <nav class="category-nav" id="categoryNav">
+                        <ul class="category-list">
+                            <li class="category-item active" data-category="all">
+                                <a href="#" class="category-link">
+                                    <span class="category-name">全部工具</span>
+                                    <span class="category-count" id="allCount">0</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+
+                <!-- 中间内容区 -->
+                <section class="content">
+                    <!-- 热门推荐区域 -->
+                    <div class="section featured-section">
+                        <div class="section__header">
+                            <h2 class="section__title">热门推荐</h2>
+                            <span class="section__subtitle">精选优质AI工具</span>
+                        </div>
+                        <div class="tools-grid" id="featuredTools">
+                            <!-- 推荐工具卡片将通过JavaScript动态生成 -->
+                        </div>
+                    </div>
+
+                    <!-- 最新收录区域 -->
+                    <div class="section latest-section">
+                        <div class="section__header">
+                            <h2 class="section__title">最新收录</h2>
+                            <span class="section__subtitle">最新添加的AI工具</span>
+                        </div>
+                        <div class="tools-grid" id="latestTools">
+                            <!-- 最新工具卡片将通过JavaScript动态生成 -->
+                        </div>
+                    </div>
+
+                    <!-- 全部工具区域 -->
+                    <div class="section all-tools-section">
+                        <div class="section__header">
+                            <h2 class="section__title" id="currentCategoryTitle">全部工具</h2>
+                            <span class="section__subtitle" id="currentCategorySubtitle">发现更多AI工具</span>
+                        </div>
+                        <div class="tools-grid" id="allTools">
+                            <!-- 全部工具卡片将通过JavaScript动态生成 -->
+                        </div>
+                    </div>
+
+                    <!-- 搜索结果区域 -->
+                    <div class="section search-results-section hidden" id="searchResults">
+                        <div class="section__header">
+                            <h2 class="section__title">搜索结果</h2>
+                            <span class="section__subtitle" id="searchResultsCount">找到 0 个相关工具</span>
+                        </div>
+                        <div class="tools-grid" id="searchResultsGrid">
+                            <!-- 搜索结果将通过JavaScript动态生成 -->
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 右侧信息栏 -->
+                <aside class="info-sidebar">
+                    <div class="info-card">
+                        <h3>网站统计</h3>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <span class="stat-number" id="totalTools">0</span>
+                                <span class="stat-label">AI工具</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" id="totalCategories">0</span>
+                                <span class="stat-label">分类</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" id="featuredCount">0</span>
+                                <span class="stat-label">推荐工具</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3>快速入口</h3>
+                        <div class="quick-links">
+                            <a href="#" class="quick-link">提交工具</a>
+                            <a href="#" class="quick-link">意见反馈</a>
+                            <a href="#" class="quick-link">联系我们</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- 工具详情模态框 -->
+    <div class="modal-overlay hidden" id="modalOverlay">
+        <div class="modal">
+            <div class="modal__header">
+                <h3 class="modal__title" id="modalTitle">工具详情</h3>
+                <button class="modal__close" id="modalClose">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal__body">
+                <p class="modal__description" id="modalDescription"></p>
+                <div class="modal__category">
+                    <span class="status" id="modalCategory"></span>
+                </div>
+                <div class="modal__actions">
+                    <button class="btn btn--primary" id="visitTool">访问工具</button>
+                    <button class="btn btn--secondary" id="sharetool">分享工具</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
